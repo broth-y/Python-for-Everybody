@@ -1,0 +1,25 @@
+# Converting elevator floors from Europe (inp) to US system (usf = inp+1)
+inp = ('10') # input('Europe floor? ')
+print('Europe floor', inp) # here we print the input value (10) and prefix that with 'Europe floor' to get output as 'Europe floor 10'
+usf = int(inp) + 1
+print('US floors', usf)
+
+# Practice for sequential input and output functions
+# Converting elevator floors from Europe (eur) to US system (usa = eur+1
+eur = input("Europe floor:") # input function to read a string (setting a header)
+usa = int(eur)+1
+print("US floor:", usa)
+
+#Chapter 3 - Conditional Execution
+x = 5 
+if x < 10:   
+    print('smaller')
+if x > 20: 
+    print('bigger')
+print ("Im done")
+#be careful of indents
+
+
+eur = input("Europe Floor: ")
+usa = int(eur) + 1
+print("US Floor conversion:", usa)
